@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background:linear-gradient(to left,rgb(148, 148, 231),white);
+  
+}
+
+.container{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    
+    
+}
+
+.whole-car{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.car-lower{
+    height: 100px;
+    width: 380px;
+    background-color: red;
+    border-radius: 30px;
+
+    
+}
+
+.car-upper{
+    height: 150px; 
+    width: 260px;
+    background-color: black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px solid white;
+
+
+}
+
+.window{
+    height: 90px;
+    width: 150px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+  
+}
+
+.window1{
+    border-top-left-radius: 10px;
+   
+}
+.window2{
+    border-top-right-radius: 10px;
+}
+
+.wheel{
+    background-color:grey;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    transform: translate(-50%,-50%);
+}
+
+.wheel-div{
+    display: flex;
+    column-gap: 60px;
+    margin-left: 50px;
+}
+
+
+.wheel1{
+    border: 30px solid black;
+}
+
+.wheel2{
+    border: 30px solid black;
+}
+
+
