@@ -1,42 +1,64 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
     box-sizing: border-box;
 }
-body{
-  background:linear-gradient(to left,rgb(148, 148, 231),white);
+
+body {
+
+    background-image: url(https://media.istockphoto.com/id/1251354121/vector/cartoon-meadow-landscape-summer-green-fields-view-spring-lawn-hill-and-blue-sky-green-grass.jpg?s=612x612&w=0&k=20&c=JBCmz0zTIAa1oWPkBiQTzG4WhOagKzFVh7FcC5BtPdM=);
+    background-repeat: repeat-x;
+    background-size: 100% 50%;
+    background-color: rgb(52, 50, 50);
   
+
 }
 
-.container{
+.container {
     height: 300px;
     width: 100vw;
     display: flex;
+    bottom: 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 250px;
-    
-    
+    margin-top: 300px;
+    background-image: url(road2.jpg);
+
 }
 
-.whole-car{
+.whole-car {
     display: flex;
     flex-direction: column-reverse;
+    bottom: 0px;
 }
 
 
-.car-lower{
+.car-lower {
     height: 100px;
     width: 380px;
     background-color: red;
     border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
 
-    
+
 }
 
-.car-upper{
-    height: 150px; 
+.headingclass {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.window {
+    background: linear-gradient(to right, rgb(130, 187, 215), white);
+}
+
+.car-upper {
+    height: 150px;
     width: 260px;
-    background-color: black;
+    background-color: rgb(42, 37, 37);
     margin-left: 20px;
     display: flex;
     justify-content: space-around;
@@ -48,45 +70,47 @@ body{
 
 }
 
-.window{
+.window {
     height: 90px;
     width: 150px;
     background-color: white;
     margin-top: 30px;
     margin-left: 25px;
     margin-right: 25px;
-  
+
 }
 
-.window1{
+.window1 {
     border-top-left-radius: 10px;
-   
+
 }
-.window2{
+
+.window2 {
     border-top-right-radius: 10px;
 }
 
-.wheel{
-    background-color:grey;
+.wheel {
+    background-color: grey;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+
 }
 
-.wheel-div{
+.wheel-div {
     display: flex;
     column-gap: 60px;
     margin-left: 50px;
+    margin-bottom: 0;
 }
 
 
-.wheel1{
+.wheel1 {
     border: 30px solid black;
 }
 
-.wheel2{
+.wheel2 {
     border: 30px solid black;
 }
-
 
